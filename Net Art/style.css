@@ -33,7 +33,7 @@ body {
 
 .container {
     width: 60%;
-    margin: 2rem auto; 
+    margin: 2rem auto;
 }
 
 .wall {
@@ -57,11 +57,19 @@ body {
     grid-row-end: 3;
 }
 
+.wall_item1:hover{
+    opacity:0.3;
+}
+
 .wall_item2 {
     grid-column-start: 3;
     grid-column-end: 5;
     grid-row-start: 1;
     grid-row-end: 6;
+}
+
+.wall_item2:hover{
+    opacity:0.3;
 }
 
 .wall_item3 {
@@ -71,11 +79,19 @@ body {
     grid-row-end: 9;
 }
 
+.wall_item3:hover{
+    opacity:0.3;
+}
+
 .wall_item4 {
     grid-column-start: 1;
     grid-column-end: 3;
      grid-row-start: 3;
     grid-row-end: 6;
+}
+
+.wall_item4:hover{
+    opacity:0.3;
 }
 
 .wall_item5 {
@@ -85,11 +101,19 @@ body {
     grid-row-end: 4;
 }
 
+.wall_item5:hover{
+    opacity:0.3;
+}
+
 .wall_item6 {
     grid-column-start: 7;
     grid-column-end: 9;
     grid-row-start: 4;
     grid-row-end: 6;
+}
+
+.wall_item6:hover{
+    opacity:0.3;
 }
 
 .wall_item7 {
@@ -99,11 +123,19 @@ body {
     grid-row-end: 9;
 }
 
+.wall_item7:hover{
+    opacity:0.3;
+}
+
 .wall_item8 {
     grid-column-start: 5;
     grid-column-end: 7;
     grid-row-start: 4;
     grid-row-end: 7;
+}
+
+.wall_item8:hover{
+    opacity:0.3;
 }
 
 .wall_item9 {
@@ -113,6 +145,10 @@ body {
     grid-row-end: 9;
 }
 
+.wall_item9:hover{
+    opacity:0.3;
+}
+
 .wall_item10 {
     grid-column-start: 5;
     grid-column-end: 7;
@@ -120,9 +156,17 @@ body {
     grid-row-end: 9;
 }
 
+.wall_item10:hover{
+    opacity:0.3;
+}
+
 .wall_item11 {
     grid-column-start: 7;
     grid-column-end: 9;
     grid-row-start: 1;
     grid-row-end: 4;
+}
+
+.wall_item11:hover{
+    opacity:0.3;
 }
