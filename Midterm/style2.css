@@ -58,7 +58,7 @@ h3{
     top:5%;;
     left: 5%;
     width: 120px;
-    transform: translateY(-70%);
+    transform: translateY(-50%);
     font-size:20px;
     background-color:rgba(0,0,0,0);
     padding: 0;
@@ -132,7 +132,7 @@ audio {
     grid-column-start: 1;
     grid-column-end: 5;
     grid-row-start: 5;
-    grid-row-end: 12;
+    grid-row-end: 9;
 }
 
 
@@ -140,7 +140,7 @@ audio {
     grid-column-start: 5;
     grid-column-end: 9;
     grid-row-start: 1;
-    grid-row-end: 6;
+    grid-row-end: 7;
 }
 
 .wall_item4 {
@@ -160,7 +160,7 @@ audio {
 
 .wall_item6 {
     grid-column-start: 5;
-    grid-column-end: 9;
-    grid-row-start: 4;
-    grid-row-end: 7;
+    grid-column-end: 7;
+    grid-row-start: 6;
+    grid-row-end: 9;
 }
