@@ -12,6 +12,10 @@ h1 {
     font-size: 10;
 }
 
+.text{
+    font-size:5px;
+    color:green;
+}
 *,
 *::after,
 *::before {

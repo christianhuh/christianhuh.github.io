@@ -7,6 +7,11 @@ body {
     object-fit: cover;
 }
 
+.text{
+    font-size:15px;
+    color:green;
+}
+
 *,
 *::after,
 *::before {
@@ -71,8 +76,8 @@ h3{
 }
 
 html {
-    box-sizing: border-box;
-    font-size: 62.5%; 
+    min-width: 1920px;
+    min-height:1080px; 
 } 
 
 audio {
@@ -92,6 +97,13 @@ audio {
     margin: 2rem auto;
 }
 
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+
 .wall {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -100,7 +112,7 @@ audio {
 }
 
 .wall_img {
-    width: 100%;
+    max-width: 100%;
     height: 100%;
     object-fit: cover;
     display: block; 
